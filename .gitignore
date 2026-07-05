@@ -1,0 +1,23 @@
+# --- secrets & environment (NEVER commit) ---
+.env
+.env.*
+!.env.example
+
+# --- python env ---
+.venv/
+__pycache__/
+*.pyc
+
+# --- macOS ---
+.DS_Store
+
+# --- personal reference photos (your face) ---
+refs/
+
+# --- generated per-episode assets (large, regenerable) ---
+series/*/clips/
+series/*/*.mp4
+series/*/*.mp3
+
+# --- scratch ---
+*.log
